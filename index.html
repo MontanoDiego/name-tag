@@ -30,7 +30,7 @@
 
         <main>
             <!-- section for controls -->
-            <section>
+            <section id="inputSection">
                 <label>Name:</label>
                 <input id="nameInput" />
                 <button id="updateButton">Submit</button>
@@ -42,10 +42,14 @@
             </section>
 
             <!-- section for displaying name -->
-            <section id="nameTagSection">
-                <h1 class="red">Hello</h1>
-                <p class="red">my name is...</p>
-                <p class="nameDisplay" id="name"></p>
+            <section class="flexContainer">
+                <div class="top">
+                    <h1 class="red">HELLO</h1>
+                    <p class="red">my name is...</p>
+                </div>
+                <div class="bot">
+                    <p class="nameDisplay" id="name"></p>
+                </div>
             </section>
         </main>
     </body>

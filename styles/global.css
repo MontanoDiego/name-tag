@@ -1,6 +1,6 @@
 :root {
-    --background: rgb(224, 234, 247);
-    --header-background: rgb(254, 251, 245);
+    --background: rgb(255, 255, 255);
+    --header-background: rgb(150, 150, 150);
     --primary-font: Corbel, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans',
         'Bitstream Vera Sans', 'Liberation Sans', Verdana, 'Verdana Ref', sans-serif;
 }
@@ -45,6 +45,31 @@ main {
 .gray {
     color: gray;
 }
-#nameTagSection {
+/* #nameTagSection { */
+    /* text-align: center; */
+/* } */
+
+#inputSection {
+
+    background-color: white;
     text-align: center;
+
+}
+
+.flexContainer {
+    text-align: center;
+
+}
+
+.top {
+    border: solid black;
+}
+
+.bot {
+    border: solid black;
+}
+
+#name {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: xx-large;
 }
