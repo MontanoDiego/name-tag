@@ -1,4 +1,9 @@
-const nameInput = document.getElementById('nameInput');
-console.log(nameInput, 'nameInput');
+const nameDisplay = document.getElementById('name');
+console.log('nameDisplay', nameDisplay);
 
-const button = document.getElementById
+const updateButton = document.getElementById('updateButton');
+updateButton.addEventListener('click', () => {
+    console.log("button press");
+    const nameInput = document.getElementById('nameInput');
+    nameDisplay.textContent = nameInput.value;
+});
