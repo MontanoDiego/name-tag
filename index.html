@@ -1,55 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <!-- metadata -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-<head>
-    <!-- metadata -->
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <!-- title and favicon -->
+        <title>Web App</title>
+        <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
 
-    <!-- title and favicon -->
-    <title>Web App</title>
-    <link rel="icon" type="image/x-icon" href="assets/alchemy-favicon.png" />
+        <!-- js -->
+        <script type="module" src="app.js"></script>
 
-    <!-- js -->
-    <script type="module" src="app.js"></script>
+        <!-- fonts -->
+        <!-- see https://fonts.google.com/ -->
 
-    <!-- fonts -->
-    <!-- see https://fonts.google.com/ -->
+        <!-- css -->
+        <link rel="stylesheet" href="styles/reset.css" />
+        <link rel="stylesheet" href="styles/global.css" />
+        <!-- add link for page specific css -->
+    </head>
 
-    <!-- css -->
-    <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/global.css" />
-    <!-- add link for page specific css -->
+    <body>
+        <header>
+            <img class="logo" src="assets/html_css_js.png" alt="logo" />
+            <h1>Web App</h1>
+        </header>
 
-</head>
+        <main>
+            <!-- section for controls -->
+            <section>
+                <label>Name:</label>
+                <input id="nameInput" />
+                <button id="button">Submit</button>
+                <select id="colorSelector">
+                    <option value="purple">Purple</option>
+                    <option value="red">Red</option>
+                    <option value="gray">Gray</option>
+                </select>
+            </section>
 
-<body>
-    <header>
-        <img class="logo" src="assets/html_css_js.png" alt="logo">
-        <h1>Web App</h1>
-    </header>
-
-    <main>
-    <!-- section for controls -->
-        <section>
-            <label>Name:</label>
-            <input id="" />
-            <button></button>
-            <select id="">
-                <option></option>
-                <option></option>
-                <option></option>
-            </select>
-        </section>
-    <!-- section for displaying name -->
-        <section id="nameTagSection">
-            <h1 class="red">Hello</h1>
-            <p class="red"> my name is...</p>
-            <p class=""> name </p>
-        </section>
-    </main>
-
-</body>
-
+            <!-- section for displaying name -->
+            <section id="nameTagSection">
+                <h1 class="red">Hello</h1>
+                <p class="red">my name is...</p>
+                <p class="nameDisplay">name</p>
+            </section>
+        </main>
+    </body>
 </html>
