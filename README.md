@@ -12,7 +12,7 @@
 -   button
 -   selector
 
-1.) options
+2.) options
 
 -   purple
 -   red
