@@ -1,23 +1,33 @@
 ## The Golden Rule:
 
+![Wireframe](./assets/wireframe.png)
+
 # HTML
+
 1.) define elements
-    - prefix text (hello my name is...)
-    - label
-    - name input
-    - button
-    - selector
-        1 - options
-            - purple
-            - red
-            - gray
+
+-   prefix text (hello my name is...)
+-   label
+-   name input
+-   button
+-   selector
+
+1.) options
+
+-   purple
+-   red
+-   gray
 
 # EVENTS
+
 1.) variables
-    - name input
-    - name update
-    - color drop down selection
+
+-   name input
+-   name update
+-   color drop down selection
+
 2.) functions
-    - event listener
-        - button
-        - drop down selector
+
+-   event listener
+-   button
+-   drop down selector
