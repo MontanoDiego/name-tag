@@ -31,3 +31,7 @@
 -   event listener
 -   button
 -   drop down selector
+
+Stretch goals
+submit on enter
+css on nametag
