@@ -11,4 +11,9 @@ updateButton.addEventListener('click', () => {
 const colorDropdown = document.getElementById('colorSelector');
 colorDropdown.addEventListener('change', () => {
     console.log('change has been made');
+
+    nameDisplay.classList.remove('purple');
+    nameDisplay.classList.remove('red');
+    nameDisplay.classList.remove('grey');
+    nameDisplay.classList.add(colorDropdown.value);
 });

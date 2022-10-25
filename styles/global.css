@@ -34,11 +34,17 @@ main {
     padding: 20px;
 }
 
+.purple {
+    color: purple;
+}
 
 .red {
     color: red;
 }
 
+.gray {
+    color: gray;
+}
 #nameTagSection {
     text-align: center;
 }

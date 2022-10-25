@@ -28,9 +28,10 @@
 
 2.) functions
 
--   event listener
--   button
--   drop down selector
+Event listeners:
+
+1.  button
+2.  drop down selector
 
 Stretch goals
 submit on enter
