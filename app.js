@@ -16,6 +16,5 @@ colorDropdown.addEventListener('change', () => {
     nameDisplay.classList.remove('red');
     nameDisplay.classList.remove('gray');
     nameDisplay.classList.add(colorDropdown.value);
-});
 
-
+}); 
